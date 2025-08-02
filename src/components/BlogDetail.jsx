@@ -8,7 +8,8 @@ const blogData = [
     title: "How to Master JavaScript",
     description: "JavaScript is the most important language for web development...",
     image: "https://prepbytes-misc-images.s3.ap-south-1.amazonaws.com/assets/1644309392998-Sorting%20image-25.png",
-    content: `To master JavaScript, you need to:
+    content: `JavaScript is the most important language for web development. To master it, start by learning basics like variables, loops, and functions. Practice daily, build small projects, and learn DOM manipulation, closures, promises, and async/await.
+    To master JavaScript, you need to:
 
 1. Learn basics (variables, loops, functions).
 2. Understand DOM manipulation.
@@ -25,7 +26,8 @@ const blogData = [
     title: "Top 10 React Tips",
     description: "React is a powerful UI library...",
     image: "https://miro.medium.com/v2/resize:fit:1400/0*y6IcBe5J1AdALzXw.png",
-    content: `Best practices for React:
+    content: `React is a powerful UI library. Use functional components, keep them small and reusable, use hooks like useEffect and useMemo smartly, and follow best practices for clean and fast apps.
+    Best practices for React:
 
 ✅ Use functional components  
 ✅ Keep components small and reusable  

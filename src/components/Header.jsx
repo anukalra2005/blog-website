@@ -19,11 +19,13 @@ function Header() {
       <h1 style={{ margin: 0, fontSize: '1.5rem', color: '#222' }}>
         <span style={{ color: '#007bff', fontWeight: 'bold' }}>Anu's</span> Blog
       </h1>
-      <nav>
-        <a href="/" style={navStyle}>Home</a>
-        <a href="#blogs" style={navStyle}>Blogs</a>
-        <a href="#contact" style={navStyle}>Contact</a>
-      </nav>
+      <nav style={{ display: 'flex', gap: '1rem' }}>
+  <a href="/" style={navStyle}>Home</a>
+  <a href="#blogs" style={navStyle}>Blogs</a>
+  <a href="#contact" style={navStyle}>Contact</a>
+</nav>
+
+      
     </header>
   );
 }

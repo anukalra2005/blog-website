@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import BlogList from './components/BlogList';
 import Footer from './components/Footer';
 import BlogDetail from './components/BlogDetail';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -13,11 +14,17 @@ function App() {
         <Route path="/" element={
           <>
             <Hero />
-            <BlogList />
+            <div id="blogs">
+  <BlogList />
+</div>
+
+
+            
           </>
         } />
         <Route path="/blogs/:id" element={<BlogDetail />} />
       </Routes>
+      <Contact/>
       <Footer />
     </>
   );
